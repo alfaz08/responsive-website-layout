@@ -1,0 +1,17 @@
+/**{margin: 0px;
+  padding: 0px;
+}*/
+.container{
+  background-color: yellowgreen;
+  border: 2px solid salmon;
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  flex-wrap: wrap;
+}
+.box{
+  border: 2px dashed blue;
+  width: 200px;
+  height: 200px;
+  
+}

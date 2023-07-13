@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      
+      display: grid;
+      height: 500px;
+      grid-template-columns:repeat(12,1fr);
+      grid-template-rows: 50px auto 50px;
+      grid-template-areas: 
+       "h h h h h h h h h h h h"
+       "m m c c c c c c c c c c"
+       "f f f f f f f f f f f f"
+    }
+
+  .a{
+    grid-area: h;
+    background-color: aquamarine;
+  }
+  .b{
+    grid-area: m;
+    background-color: yellowgreen;
+  }
+  .c{
+    grid-area: c;
+    background-color: violet;
+  }
+  .d{
+    grid-area: f;
+    background-color: sienna;
+
+  }
+ 
+  </style>
+</head>
+   
+
+<body>
+  
+   <div class="container">
+    <div class="a">HEADER</div>
+    <div class="b">MENU</div>
+    <div class="c">CONTENT</div>
+    <div class="d">FOOTER</div>
+    
+   </div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

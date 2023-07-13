@@ -1,0 +1,68 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      
+      display: grid;
+      grid-template-columns:repeat(12,1fr);
+      grid-template-rows: 50px auto 50px;
+      height: 500px ;
+    }
+
+  .a{grid-column: 2/-1;
+    background-color: aquamarine;
+    text-align: center;
+  }
+  .b{grid-row: 1/3;
+    background-color: red;
+
+  }
+  .c{
+    grid-column: 2/-1;
+    background-color: yellow;
+  }
+  .d{
+    grid-column:1/-1;
+    background-color:  orchid;
+
+  }
+ 
+  </style>
+</head>
+   
+
+<body>
+  
+   <div class="container">
+    <div class="a">HEADER</div>
+    <div class="b">MENU</div>
+    <div class="c">CONTENT</div>
+    <div class="d">FOOTER</div>
+    
+   </div>
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
